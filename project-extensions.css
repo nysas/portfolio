@@ -1,0 +1,10 @@
+.card-pennywise{background:var(--acid)}
+.card-advice{background:#d9d0ff}
+.pennywise-visual{min-height:310px}
+.wallet-card{position:absolute;width:260px;height:154px;right:10%;top:18%;border-radius:18px;background:var(--ink);color:var(--paper);padding:23px;box-shadow:16px 18px 0 rgba(29,41,40,.14);transform:rotate(-7deg)}
+.wallet-chip{height:28px;width:40px;border-radius:6px;background:#e1bb56}
+.wallet-lines{position:absolute;right:23px;top:24px}.wallet-lines i{display:block;height:5px;width:38px;margin-bottom:7px;background:#81928f}.wallet-lines i:last-child{width:24px}
+.wallet-card strong{position:absolute;bottom:24px;font-family:"DM Mono",monospace;font-size:20px}
+.expense-chart{position:absolute;right:31%;bottom:15%;height:90px;width:165px;border-bottom:2px solid rgba(29,41,40,.55);display:flex;align-items:end;gap:10px}.expense-chart i{width:18px;background:#528b86}.expense-chart i:nth-child(1){height:35%}.expense-chart i:nth-child(2){height:70%}.expense-chart i:nth-child(3){height:46%}.expense-chart i:nth-child(4){height:88%;background:#ef6848}.expense-chart i:nth-child(5){height:55%}
+.advice-visual{min-height:310px}.message{position:absolute;border:2px solid var(--ink);border-radius:16px;background:#f7f4ed}.message:after{content:"";position:absolute;bottom:-9px;left:24px;width:15px;height:15px;background:#f7f4ed;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg)}.message-one{width:220px;height:86px;right:14%;top:13%}.message-two{width:178px;height:68px;right:35%;top:45%;background:#ffda7a}.message-two:after{background:#ffda7a}.message-three{width:130px;height:49px;right:8%;bottom:12%;background:#9bd8c3}.message-three:after{background:#9bd8c3}.shield{position:absolute;left:7%;bottom:13%;height:86px;width:70px;background:var(--ink);color:var(--acid);display:grid;place-items:center;font-size:35px;font-weight:800;clip-path:polygon(50% 0,100% 17%,90% 72%,50% 100%,10% 72%,0 17%)}
+@media(max-width:700px){.wallet-card{right:15%;top:9%;transform:scale(.8) rotate(-7deg);transform-origin:top right}}
