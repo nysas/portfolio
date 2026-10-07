@@ -384,3 +384,7 @@ section{
   .btn{padding:.8rem 1.1rem; font-size:.8rem;}
   .exp-stats{gap:1.4rem;}
 }
+
+/* Visible inline links inside project write-ups */
+.project-detail a{color:var(--teal); text-decoration:underline; text-underline-offset:3px; font-weight:600;}
+.project-detail a:hover{color:var(--amber);}

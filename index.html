@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Nysa Sinha — Builder, CS/IoT, VIT</title>
-<meta name="description" content="Nysa Sinha builds mobile apps, safety systems, and automation — an AI fashion assistant, an industrial gas-leak detector, a fog-computing traffic system, and more. CS (IoT) student at VIT." />
+<meta name="description" content="Nysa Sinha builds mobile apps, safety systems, and automation — an anonymous peer-support platform, an AI fashion assistant, an industrial gas-leak detector, a fog-computing traffic system, and more. CS (IoT) student at VIT." />
 <meta property="og:title" content="Nysa Sinha — Builder, CS/IoT, VIT" />
 <meta property="og:description" content="Apps, sensors, and automation pipelines — built by a CS (IoT) student who likes finishing what she starts." />
 <meta property="og:type" content="website" />
@@ -133,14 +133,15 @@
       <!-- PROJECT 3: Peer Advice Platform -->
       <article class="project proj-advice size-md">
         <div class="project-readout">
-          <span>PROJECT_03</span><span>TYPE: Full-stack</span><span class="status-ongoing"><i class="dot"></i>STATUS: Ongoing</span>
+          <span>PROJECT_03</span><span>TYPE: Full-stack</span><span>STATUS: Live</span>
         </div>
         <div class="project-body">
-          <h3>Anonymous Peer Advice &amp; Support Platform</h3>
+          <h3>Unsaid — Anonymous Peer-Support Platform</h3>
           <p class="project-desc">A space to ask something you'd rather not attach your name to, and get pointed toward someone who actually knows the domain — with moderation built in so "anonymous" doesn't mean unsafe.</p>
-          <p class="project-detail">Frontend is done: a responsive Next.js + TypeScript app with Tailwind CSS and Framer Motion, covering anonymous posting, domain-based feeds, replier profiles, assessments, and feedback. Currently building the backend on Supabase/PostgreSQL, plus AI-powered safety moderation, PII detection, replier assessment, and question–replier matching.</p>
+          <p class="project-detail">Askers are matched with vetted peer &ldquo;Repliers&rdquo; across 8 life domains, based on their preferences. Repliers earn a moderator-approved &ldquo;Qualified&rdquo; badge by passing domain-specific, scenario-based assessments (40 questions). Anonymity is enforced in the database itself with PostgreSQL Row-Level Security and identity-safe views, so an asker can&rsquo;t be identified even through direct API calls. Trust and safety is built in: server-side personal-information detection, per-user rate limiting, content that auto-hides after 3 community reports, crisis-language detection that surfaces helpline resources, and an admin moderation dashboard.</p>
+          <p class="project-detail"><a href="https://unsaid-opal-chi.vercel.app" target="_blank" rel="noopener">Open the live app ↗</a></p>
           <div class="tags">
-            <span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>Framer Motion</span><span>Supabase</span>
+            <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Framer Motion</span><span>Supabase</span><span>PostgreSQL</span><span>Vercel</span>
           </div>
         </div>
         <div class="project-visual" aria-hidden="true">
@@ -187,7 +188,7 @@
   <section class="experience" id="experience">
     <div class="section-head">
       <p class="tag-label">// experience</p>
-      <h2>Two internships. One learning to test things properly, one learning to secure them.</h2>
+      <h2>Three internships. One learning to test things properly, one learning to secure them, one learning to design them.</h2>
     </div>
 
     <div class="exp-list">
@@ -220,6 +221,20 @@
           </div>
         </div>
       </article>
+      <article class="exp-item">
+        <div class="exp-meta">
+          <p class="exp-date">Oct – Nov 2024</p>
+          <p class="exp-place">Aptifyr</p>
+        </div>
+        <div class="exp-body">
+          <h3>Design Intern</h3>
+          <p>Designed UI components and branding materials for the company's digital platforms.</p>
+          <div class="exp-stats">
+            <div class="stat"><span class="stat-num">UI</span><span class="stat-label">components</span></div>
+            <div class="stat"><span class="stat-num">Brand</span><span class="stat-label">materials</span></div>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -230,12 +245,12 @@
       <h2>My projects don't stay in one lane, and I've stopped pretending they should.</h2>
     </div>
     <div class="interest-grid">
-      <div class="interest-card"><h4>AI / ML</h4><p>Recommendation logic in the fashion assistant, and AI-based moderation going into the peer platform right now.</p></div>
+      <div class="interest-card"><h4>AI / ML</h4><p>Recommendation logic in the fashion assistant, and YOLO-based detection in the traffic and gas-leak systems.</p></div>
       <div class="interest-card"><h4>Computer vision</h4><p>Used to spot vehicles for traffic density and to watch for hazards in the gas-leak system — same technique, two very different stakes.</p></div>
       <div class="interest-card"><h4>IoT &amp; embedded</h4><p>ESP32 boards, gas and environment sensors, and the fog-computing layer that keeps decisions fast and local.</p></div>
       <div class="interest-card"><h4>Mobile apps</h4><p>Flutter for the fashion assistant — building interfaces people actually reach for, not just demo once.</p></div>
       <div class="interest-card"><h4>Test automation</h4><p>A testing framework at Zeta that turned a slow, manual QA cycle into something 75% faster.</p></div>
-      <div class="interest-card"><h4>Safety &amp; trust</h4><p>Hazard alerts for physical spaces, PII detection and moderation for anonymous ones — different systems, same instinct to protect people.</p></div>
+      <div class="interest-card"><h4>Safety &amp; trust</h4><p>Hazard alerts for physical spaces; database-level anonymity, PII detection and crisis-language detection for anonymous ones — different systems, same instinct to protect people.</p></div>
     </div>
   </section>
 
@@ -248,19 +263,27 @@
     <div class="skills-grid">
       <div class="skill-group">
         <h4>Languages</h4>
-        <p>Java, Python, C, C++, JavaScript, SQL</p>
+        <p>Java, Python, SQL, TypeScript, JavaScript, C++, C</p>
       </div>
       <div class="skill-group">
-        <h4>Frontend, Mobile &amp; Backend</h4>
-        <p>HTML, CSS, Flutter, Tailwind CSS, FastAPI, PostgreSQL, Supabase, REST APIs</p>
+        <h4>Frontend &amp; Mobile</h4>
+        <p>React, Next.js, HTML, CSS, Tailwind CSS, Framer Motion, Flutter</p>
+      </div>
+      <div class="skill-group">
+        <h4>Backend &amp; Data</h4>
+        <p>PostgreSQL, Supabase, FastAPI, REST APIs, Row-Level Security, RBAC</p>
       </div>
       <div class="skill-group">
         <h4>AI/ML &amp; IoT</h4>
         <p>YOLO, OpenCV, ESP32, Arduino, IoT sensors, fog computing</p>
       </div>
       <div class="skill-group">
-        <h4>Core concepts</h4>
-        <p>Data Structures &amp; Algorithms, OOP, secure authentication, Git/GitHub</p>
+        <h4>Testing &amp; Tools</h4>
+        <p>Selenium / Playwright, UI test automation, Git/GitHub, Vercel, DSA, OOP, DBMS</p>
+      </div>
+      <div class="skill-group">
+        <h4>Design</h4>
+        <p>UI components, branding materials, motion (Framer Motion)</p>
       </div>
     </div>
   </section>
@@ -273,7 +296,7 @@
     </div>
     <ul class="achievement-list">
       <li><span class="ach-tag">GraVITas '23</span><p>3rd place, Add-a-thon, VIT</p></li>
-      <li><span class="ach-tag">Central Hackathon</span><p>Cleared Stage 1 &amp; Stage 2, out of 150+ teams</p></li>
+      <li><span class="ach-tag">Central Hackathon</span><p>Finalist out of 150+ teams</p></li>
       <li><span class="ach-tag">Smart India Hackathon</span><p>Cleared Stages 1 through 4</p></li>
     </ul>
   </section>
@@ -284,7 +307,7 @@
       <p class="tag-label">// about</p>
       <h2>Studying Computer Science with a focus on IoT at VIT — but most of what I know, I picked up building things that had a real reason to exist.</h2>
       <p>I like projects that end somewhere: an app someone could open, a sensor rig that actually catches a leak, a test suite that saves a team real hours. My work moves between mobile apps, backend systems, embedded IoT, and AI, and I've stopped trying to force it into one lane — the overlap is usually where the interesting problem is anyway.</p>
-      <p>Right now that means finishing the backend for the peer-support platform: getting Supabase and PostgreSQL to hold up the anonymous posting flow I already built, and getting the AI moderation layer to actually catch what it's supposed to before people see it.</p>
+      <p>Most recently that meant shipping Unsaid, an anonymous peer-support platform, end to end. That covered everything from the Next.js frontend to the PostgreSQL rules that keep an asker anonymous even from someone poking at the API directly.</p>
     </div>
   </section>
 
